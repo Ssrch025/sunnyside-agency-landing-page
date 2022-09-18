@@ -1,0 +1,164 @@
+
+/* Pre-settting */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    font: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+html {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+
+/* Header */
+main {
+    background-color: #FFF5E4;
+}
+
+.bg-img {
+    background-image: url('images/desktop/image-header-3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn-light:hover, .text-black:hover {
+    opacity: 0.4;
+    color: #fff;
+}
+
+.header-content {
+    padding-top: 4rem;
+}
+
+.header-content h1 {
+    font-weight: 900;
+    font-size: 2.2rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+/* Showcase Article */
+.showcase-text {
+    font-weight: bold;
+    /* width: 70%; */
+}
+
+.showcase-text p {
+    color: hsl(210, 4%, 67%);
+    font-size: 0.8rem;
+}
+
+.article-img {
+    width: 100%;
+}
+
+.btn {
+    font-family: 'Fraunces', serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.btn a {
+    color: hsl(212, 27%, 19%);
+}
+
+.colored-underline-1:hover {
+    background: linear-gradient(180deg,#FFF5E4 60%, hsl(51, 94%, 68%) 40%);
+    background-repeat: no-repeat;
+}
+
+.colored-underline-2:hover  {
+    background: linear-gradient(180deg,#FFF5E4 60%, hsl(7, 98%, 84%) 40%);
+    background-repeat: no-repeat;
+}
+
+.showcase-bg-img {
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase-text-in {
+    padding: 20rem 2rem 2rem 2rem;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    opacity: 75%;
+}
+
+.showcase-text-in p {
+    font-size: 0.8rem;
+}
+
+/* Testimonials Article */
+.testimonials {
+    background-color: #FFF5E4;
+}
+
+.testimonials h2 {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);
+}
+
+.card {
+    background-color: #FFF5E4;
+}
+
+.card-text {
+    color: hsl(213, 9%, 39%);
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.card-body .text-secondary {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(210, 4%, 67%);
+    opacity: 50%;
+}
+
+/* Footer */
+footer {
+    background-color: #94d6ca;
+}
+
+.footer-col-1 a {
+    color: hsl(212, 27%, 19%);
+    font-weight: bolder;
+    padding: 1rem 1rem;
+}
+
+.footer-icon {
+    color: hsl(212, 27%, 19%);
+    padding: 1rem 2rem;
+}
+
+.copy-rights {
+    font-size: 0.8rem;
+}
